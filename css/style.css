@@ -211,15 +211,15 @@ nav ul {
 /******************************************/
 
 /*********** HERO ***************/
-.first-section {
+.hero-section {
     min-height: 100vh;
-    background-image: url("../assets/images/aps-background-image.jpg");
+    background-image: url("../assets/making-of/mo-12.jpg");
     background-size: cover;
     position: relative;
     overflow: hidden;
 }
 
-.first-section .light-bg {
+.hero-section .light-bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -229,7 +229,7 @@ nav ul {
     opacity: 0.6;
 }
 
-.first-section .container {
+.hero-section .container {
     padding: 4%;
     position: absolute;
     top: 30px;
@@ -240,33 +240,33 @@ nav ul {
     height: 100vh;
 }
 
-.first-section .svg-group {
+.hero-section .svg-group {
     position: relative;
     height: 100%;
     width: 40%;
 }
 
-.first-section .svg-group #processor-svg {
+.hero-section .svg-group #eco-svg {
     width: 200px;
     position: absolute;
-    top: 30%;
+    top: 20vh;
     transform: rotate(-10deg);
 }
 
-.first-section .svg-group #chart-svg {
+.hero-section .svg-group #eco2-svg {
     width: 100px;
     position: absolute;
-    top: 50%;
+    top: 40vh;
     left: 200px;
 }
 
-.first-section .svg-group #code-svg {
+.hero-section .svg-group #recycle-svg {
     width: 150px;
     position: absolute;
-    top: 60%;
+    top: 50vh;
 }
 
-.first-section .hero-content {
+.hero-section .hero-content {
     border-radius: 50%;
     font-size: 1.2rem;
     background-color: rgba(255, 255, 255, 0.6);
@@ -278,13 +278,13 @@ nav ul {
     position: relative;
 }
 
-.first-section .hero-content h1 {
+.hero-section .hero-content h1 {
     font-size: 3.5rem;
     margin-bottom: 2rem;
     font-weight: 600;
 }
 
-.first-section .hero-content span {
+.hero-section .hero-content span {
     color: rgb(185, 38, 38);
 }
 
