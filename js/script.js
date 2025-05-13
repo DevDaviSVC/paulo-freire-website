@@ -4,6 +4,16 @@ const ecoSvg = document.getElementById("eco-svg");
 const eco2Svg = document.getElementById("eco2-svg");
 const recycleSvg = document.getElementById("recycle-svg");
 const heroContent = document.getElementsByClassName("hero-content-text");
+const mmCloseBtn = document.getElementById("close-mobile-menu-btn");
+const mmBtn = document.getElementById("menu-btn");
+
+mmCloseBtn.onclick = () => {
+    document.getElementById("mobile-menu").classList.toggle("active", false);
+};
+
+mmBtn.onclick = () => {
+  document.getElementById("mobile-menu").classList.toggle("active", true);
+};
 
 window.onload = () => {
     if (window.innerWidth > 1000) {
@@ -13,7 +23,6 @@ window.onload = () => {
 
 window.addEventListener("scroll", function() {
     if (window.innerWidth > 1000) {
-
         let value = window.scrollY;
 
         nav.classList.toggle("sticky", window.scrollY > 0);

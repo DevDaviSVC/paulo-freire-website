@@ -413,7 +413,7 @@
   /* Grade principal de imagens */
   .showcase-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 200px;
     gap: 15px;
     margin-bottom: 3rem;
@@ -722,7 +722,7 @@
   
   @media (max-width: 992px) {
     .showcase-grid {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       grid-auto-rows: 180px;
     }
     
