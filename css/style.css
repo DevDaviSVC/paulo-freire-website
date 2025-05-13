@@ -82,7 +82,7 @@ nav.sticky {
 
 .selected {
     background-color: rgb(185, 38, 38);
-    color: white;
+    color: white !important;
 }
 
 nav ul {
