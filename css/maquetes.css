@@ -318,6 +318,11 @@
     .comparacao-card {
         margin-bottom: 2rem;
     }
+
+    .comparacao-row {
+      display: flex;
+      gap: 2rem;
+    }
 }
 
 @media (max-width: 576px) {
